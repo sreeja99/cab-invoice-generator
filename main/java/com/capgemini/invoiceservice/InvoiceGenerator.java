@@ -1,5 +1,9 @@
 package com.capgemini.invoiceservice;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class InvoiceGenerator {
 
 	private static final double COST_PER_KILOMETER = 10;
@@ -22,5 +26,5 @@ public class InvoiceGenerator {
 		}
 		return new InvoiceSummary(rides.length,totalFare);
 	}
-
+	
 }
